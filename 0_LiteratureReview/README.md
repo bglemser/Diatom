@@ -16,17 +16,17 @@ You might want to answer the following questions:
 
   - **[Link](https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giae087/7912108?login=false)**
   - **Objective**: This paper presents the dataset from which the subset of data I am working with originates. The autors present this dataset to help the community improve the deep learing algorithms that are used in the automated classification of diatom species.
-  - **Methods**:
-  - **Outcomes**:
-  - **Relation to the Project**: 
+  - **Methods**: Self supervised learning is explored in this paper with the presented dataset.
+  - **Outcomes**: In general the results of the ML were not as good as previously achived with other datasets. This is due to the background of the images having debris and in some cases other diatoms in them. But this is also how the images look in the real world thus it is good to use these images.
+  - **Relation to the Project**: Descibes in detail my dataset and gives a lot of backfround information also refering to othe papers and dataset. these privide valuable information sources.
 
 - **Source 2**: [Deep learning diatom taxonomy based on virtual slides]
 
   - **[Link](https://www.nature.com/articles/s41598-020-71165-w)**
-  - **Objective**:
-  - **Methods**:
-  - **Outcomes**:
-  - **Relation to the Project**:
+  - **Objective**: The authors discuss how well different CNN architectures perform when faced with the task of identifying diatom species. They also investigate how the size of the training data has an impact on the performance of the model, and how well a model trained on one dataset (here they use samples from different research expeditions) does when faced with a new dataset.
+  - **Methods**: ![table of the used cnn architectures](image.png)
+  - **Outcomes**: They show that VGG models outperfomr te other architectures when it comes to correctly identifying diatom taxonomy.
+  - **Relation to the Project**: This result shows that I sould defently try some VGG architectures when working with my data o see if I cxan get some good 
 
 - **Source 3**: [Title of Source 3]
 
