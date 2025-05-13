@@ -28,10 +28,10 @@ You might want to answer the following questions:
   - **Outcomes**: They show that VGG models outperfomr te other architectures when it comes to correctly identifying diatom taxonomy.
   - **Relation to the Project**: This result shows that I sould defently try some VGG architectures when working with my data o see if I cxan get some good 
 
-- **Source 3**: [Title of Source 3]
+- **Source 3**: [DiatomNet: An automatic Diatom genus identification system through microscopic images and Deep Learning]
 
-  - **[Link]()**
-  - **Objective**:
+  - **[Link](https://www.biorxiv.org/content/10.1101/2025.02.10.635050v1.full)**
+  - **Objective**: They build an automated tool for diatom recognizion based on a public database and a CNN network. Completely with data processing pipeline.
   - **Methods**:
-  - **Outcomes**:
-  - **Relation to the Project**:
+  - **Outcomes**: They build the automated tool that is publically available
+  - **Relation to the Project**: Here data agumentation in relation to diatom images is discussed and described. This could be quite helpfull in my project to see what has been done or what I could try with my dataset. Also it could be interesting to see if some images my model does not regognize correctely will be regognized by the automated tool.
