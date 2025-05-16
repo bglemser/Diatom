@@ -1,14 +1,5 @@
 # Literature Review
-
 Approaches or solutions that have been tried before on similar projects.
-
-
-This project milestone requires you to review the literature related to your project. The objective is to gain a deeper understanding of the problem domain, as well as to identify similar approaches or solutions that have been tried before.
-You might want to answer the following questions:
-  * Which are the models commonly used for my problem?
-  * Which format must the training data have?
-  * How much training data is typically used in similar problems?
-  * Are there pretrained models I can use for my problem?
 
 **Summary of Each Work**:
 
@@ -26,12 +17,12 @@ You might want to answer the following questions:
   - **Objective**: The authors discuss how well different CNN architectures perform when faced with the task of identifying diatom species. They also investigate how the size of the training data has an impact on the performance of the model, and how well a model trained on one dataset (here they use samples from different research expeditions) does when faced with a new dataset.
   - **Methods**: ![table of the used cnn architectures](image.png)
   - **Outcomes**: They show that VGG models outperfomr te other architectures when it comes to correctly identifying diatom taxonomy.
-  - **Relation to the Project**: This result shows that I sould defently try some VGG architectures when working with my data o see if I cxan get some good 
+  - **Relation to the Project**: This result shows that I sould defently try some VGG architectures when working with my data to see if I can get some good resuts when using them. 
 
 - **Source 3**: [DiatomNet: An automatic Diatom genus identification system through microscopic images and Deep Learning]
 
   - **[Link](https://www.biorxiv.org/content/10.1101/2025.02.10.635050v1.full)**
   - **Objective**: They build an automated tool for diatom recognizion based on a public database and a CNN network. Completely with data processing pipeline.
-  - **Methods**:
-  - **Outcomes**: They build the automated tool that is publically available
+  - **Methods**: They build a database featuring 44 classes of diatoms in 10 650 images. As the classes are highly unbalanced in the number of images available in the classes agumentation is used in classes with few images to balance out this fact.
+  - **Outcomes**: They build the automated tool that is publically available. They showed, that CNNs learned better when trained from scratch then when transfer learing is uesd with this dataset.
   - **Relation to the Project**: Here data agumentation in relation to diatom images is discussed and described. This could be quite helpfull in my project to see what has been done or what I could try with my dataset. Also it could be interesting to see if some images my model does not regognize correctely will be regognized by the automated tool.
