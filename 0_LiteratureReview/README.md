@@ -15,9 +15,10 @@ Approaches or solutions that have been tried before on similar projects.
 
   - **[Link](https://www.nature.com/articles/s41598-020-71165-w)**
   - **Objective**: The authors discuss how well different CNN architectures perform when faced with the task of identifying diatom species. They also investigate how the size of the training data has an impact on the performance of the model, and how well a model trained on one dataset (here they use samples from different research expeditions) does when faced with a new dataset.
-  - **Methods**: ![table of the used cnn architectures](image.png)
+  - **Methods**: They tested 9 CCN architectures shown in the following table:
+   ![table of the used cnn architectures](image.png)
   - **Outcomes**: They show that VGG models outperfomr te other architectures when it comes to correctly identifying diatom taxonomy.
-  - **Relation to the Project**: This result shows that I sould defently try some VGG architectures when working with my data to see if I can get some good resuts when using them. 
+  - **Relation to the Project**: This result shows that I sould defently try some VGG architectures when working with my data to see if I can get some good resuts when using them. And look more into the aplication of pre trained model for this kind of task.
 
 - **Source 3**: [DiatomNet: An automatic Diatom genus identification system through microscopic images and Deep Learning]
 
