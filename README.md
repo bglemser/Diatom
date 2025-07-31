@@ -35,4 +35,4 @@ Image Classification
 
 ## Cover Image
 
-![Project Cover Image](CoverImage/cover_image.png)
+![Project Cover Image](CoverImage/Cover_image.png)
