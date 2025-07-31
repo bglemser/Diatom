@@ -21,10 +21,9 @@ Image Classification
 
 ### Results Summary
 
-- **Best Model:** [Name of the best-performing model]
-- **Evaluation Metric:** [e.g., Accuracy, F1-Score, MSE]
-- **Result:** [e.g., 95% accuracy, F1-score of 0.8]
-
+- **Best Model:** [MobileNetV2]
+- **Evaluation Metric:** [Accuracy, F1-Score, MS]
+- **Result:** [Accuracy = 0.48, F1-score = 0.50]
 ## Documentation
 
 1. **[Literature Review](0_LiteratureReview/README.md)**
