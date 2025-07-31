@@ -1,3 +1,3 @@
 # Model Definition and Evaluation
 
-**[Notebook](Model)**
+**[Notebook](Model.ipyn)**
