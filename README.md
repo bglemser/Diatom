@@ -29,8 +29,8 @@ Image Classification
 1. **[Literature Review](0_LiteratureReview/README.md)**
 2. **[Dataset Characteristics](1_DatasetCharacteristics/data_exploration.ipynb)**
 3. **[Baseline Model](2_BaselineModel/BaselineModel.ipynb)**
-4. **[Model Definition and Evaluation](3_Model/model_definition_evaluation)**
-5. **[Presentation](4_Presentation/README.md)**
+4. **[Model Definition and Evaluation](3_Model/Model.ipynb)**
+5. **[Presentation](4_Presentation/Diatom_classification.pptx)**
 
 ## Cover Image
 
